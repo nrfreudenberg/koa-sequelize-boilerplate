@@ -1,0 +1,47 @@
+{
+  "name": "koa-sequelize-boilerplate",
+  "description": "A boilerplate for koa v2 using sequelize and postgresql",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrfreudenberg/koa-sequelize-boilerplate"
+  },
+  "keywords": [
+    "koa",
+    "sequelize",
+    "eslint",
+    "prettier",
+    "postgresql"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Nicolas Freudenberg",
+    "email": "nrfreudenberg@uc.cl"
+  },
+  "scripts": {
+    "start": "node -r esm index.js",
+    "dev": "nodemon -r esm index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-helmet": "^5.2.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.4.0",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.4",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}
